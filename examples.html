@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <title>WeToon-Examples</title>
+        <script src=""></script>
+        <link rel="stylesheet" href="WeToonCss.css">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+        <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="form-validation.js"></script>
+        <link href="form-validation.css" rel="stylesheet">
+        <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/checkout/">
+        
+    </head>
+
+    <body>
+        <div id="top">
+            <nav>
+                <ul>
+                    <div id="navigation">
+                        <div id="navigation1">
+                            <li class="nav"><a href="tutorials.html">Tutorials</a></li>
+                            <li class="nav"><a href="examples.html">Examples</a></li>
+                        </div>
+                        <div id="navigation2">
+                            <li class="nav"><a href="about.html">About</a></li>
+                            <li class="nav"><a href="questions.html">Questions</a></li>
+                        </div>
+                    </div>
+                    <div id="whole-logo">
+                        <li class="logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></li>
+                        <li class="logo"><a href="index.html">WeToon</a></li>
+                    </div>
+                </ul>
+                <ul id="small-nav">
+                   <li class="nav"><a href="tutorials.html">Tutorials</a></li>
+                    <li class="nav"><a href="examples.html">Examples</a></li>
+                    <li class="nav"><a href="about.html">About</a></li>
+                    <li class="nav"><a href="questions.html">Questions</a></li> 
+                </ul>
+            </nav>
+        </div>
+
+        <h1>View examples from WeToons!</h1>
+        <h3 class="sub">Share your creations with us using the form below these examples.</h3>
+        
+
+        <h2>The Comic Gallery</h2>
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image:url(images/weight.png)">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image:url(images/comic2.png)">
+
+        <div class="container">
+          <div class="carousel-caption">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image:url(images/comic3.png)">
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+        <h2>Share your creations!</h2>
+        <img id="share" src="images/show.png" alt="image of character holding paper"></br>
+        <p class="sub">Inspire others through WeToon...</p>
+
+    </body>
+
+    <!-- Custom styles for this template -->
+    
+<div class="container">
+
+    <div class="box">
+      <div class="col-md-5 col-lg-4 order-md-last">
+        
+      </div>
+      <div class="col-md-7 col-lg-8">
+        <h4 class="mb-3">Send us your email and name. We'll get back to you ASAP!</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address.
+              </div>
+            </div>
+            </br>
+            </br>
+
+          <button id="abutton" type="submit" onclick="replySub();">Submit</button>
+          </br>
+          <p id="reply">Thank you for submitting!</p>
+          </br>
+        </form>
+      </div>
+    </div>
+</div>
+</br>
+</br>
+</br>
+</br>
+    <div id="footer">
+        <p>WeToons &#169; 2025 &#8226; wetoons@gmail.com &#8226; 2345 Fake Address Rd, Albany, NY 6767</p>
+    </div>
+
+</html>

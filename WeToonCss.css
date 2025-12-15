@@ -1,0 +1,384 @@
+body {
+    background-image: url(images/paper.jpg);
+}
+h1, h2, button, nav {
+    font-family: Schoolbell, Arial, sans-serif !important;
+}
+h3, p, td {
+    font-family: Helvetica, Arial, sans-serif !important;
+}
+h3 {
+    font-weight: normal;
+}
+h2 {
+    font-size: 40px;
+    color:#dd5336;
+    text-align: center;
+}
+p {
+    width: 50vw;
+    margin: auto;
+}
+img {
+    width: 100px;
+}
+#gif {
+    display: none;
+    width: 150px;
+    float: left;
+}
+#top {
+    background-color: white !important;
+    padding: 10px !important;
+}
+ul {
+    list-style-type: none !important;
+     margin-right: 30px !important;
+}
+#small-nav {
+    margin: auto;
+    display: flex;
+    flex-direction:column;
+}
+.nav a {
+    display: block !important;
+    color: #dd5336 !important;
+    text-align: center !important;
+    padding: 10px 20px !important;
+    float: right !important;
+    font-size: 25px !important;
+    text-decoration: none !important;
+    background-color: rgb(255, 255, 255) !important;
+    margin: 10px !important;
+    border-radius: 5px !important;
+}
+.nav a:hover {
+    transform: scale(1.2) !important;
+    background-color: rgb(221, 221, 221) !important;
+    border-radius: 5px !important;
+}
+.logo a {
+    display: block !important;
+    font-size: 50px !important;
+    text-decoration: none !important;
+    color: #dd5336 !important;
+}
+.logo a img {
+    float:left;
+    width: 50px;
+}
+h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.sub {
+    text-align:center;
+}
+#hold {
+    display: block;
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+}
+table {
+    width: 50vw;
+    display: block;
+    margin: auto;
+    
+}
+td {
+    width: 25vw;
+    margin-right: 50px;
+    border-bottom:#dd5336 3px solid;
+    padding: 20px;
+}
+.box {
+    background-color: white;
+    width: 70vw;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+#abutton {
+    display: block;
+    background-color:#dd5336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px;
+    margin:auto;
+    animation-name: buttonShake;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.box a {
+    text-decoration: none;
+}
+#abutton:hover {
+    transform: scale(1.2);
+    opacity: 70%;
+    cursor: pointer;
+}
+#arrow {
+    width: 50px;
+}
+#comic {
+    display: block;
+    width: 700px;
+    margin: auto;
+    padding: 50px;
+}
+#share {
+    display: block;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+}
+#hand {
+    display: block;
+    width: 90px;
+    margin: auto;
+}
+#bottom {
+    display: block;
+    padding: 50px;
+    width: 50vw;
+    margin: auto;
+    margin-bottom: 90px;
+}
+#think, #press {
+    display: inline-block;
+    width: 150px;
+}
+#press {
+    display:block;
+    margin: auto;
+}
+#press:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    animation-name: buttonShake;
+    animation-iteration-count: infinite;
+    animation-duration: 0.3s;
+}
+#press:active {
+    opacity: 50%;
+}
+#think {
+    float: left;
+}
+#pencil {
+    display: block;
+    width: 200px;
+    margin: auto;
+    padding: 40px;
+    animation-name: buttonShake;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+#bubbles {
+    width: 40vw;
+    display: block;
+    margin: auto;
+    padding: 40px;
+}
+#question {
+    display: block;
+    width: 150;
+    margin: auto;
+    padding-bottom: 20px;
+}
+#paragraph {
+    padding: 30px;
+}
+#photo {
+    width: 50vw;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+.frame {
+    width: 15vw;
+}
+iframe {
+    width: 70vw;
+    height: 63vh;
+    display:block;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.car-comic {
+    display: block;
+    width: 200px;
+}
+#comments-section {
+    list-style-type: none;
+    padding: 0;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+#comment {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#userInput {
+    width: 400px; 
+    height: 100px;
+    margin-bottom: 20px;
+    border:#dd5336 3px solid;
+}
+#navigation {
+    display:flex;
+    flex:wrap;
+    float: right;
+}
+#navigation1 {
+    display: flex;
+    flex: wrap;
+}
+#navigation2 {
+    display: flex;
+    flex: wrap;
+}
+#whole-logo {
+    display: flex;
+    flex: wrap;
+}
+#reply {
+    display: none;
+}
+#footer {
+    background-color: white;
+    opacity: 70%;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+
+@keyframes buttonShake {
+    0%  {rotate: 5deg}
+    25%  {rotate: -5deg}
+    50%  {rotate: 5deg}
+    75%  {rotate: -5deg}
+    100%  {rotate: 5deg}
+}
+
+@media screen and (max-width: 2000px) and (min-width: 1101px) {
+    #small-nav {
+        display:none;
+    }
+}
+@media screen and (max-width: 1100px) {
+    #comic {
+        width: 60vw;
+    }
+    
+    #navigation {
+        display: none;
+    }
+    #userInput {
+        width: 50vw;
+    }
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+  
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  position: relative;
+  background-position: center;
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #dd5336;
+    padding: 20px;
+    border-radius: 5px;
+}
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+/* rtl:end:ignore */
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /* rtl:remove */
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
